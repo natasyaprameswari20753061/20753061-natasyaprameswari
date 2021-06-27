@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+    <div class="employee-form">
+    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+    <center>
+    <div>
+        <label><p style="font-family:monospace;">NAMA</p></label><label class="validation-error hide" id="fullNameValidationError"></label></br>
+        <input type="text" name="Namalengkap" id="Namalengkap">
+    </div>
+    </center>
+    <center>
+        <div>
+        <label><p style="font-family:monospace;">NPM</p></label></br>
+        <input type="text" name="Npm" id="Npm">
+    </div>
+    </center>
+    <center>
+        <div>
+        <label><p style="font-family:monospace;">AlAMAT</p></label></br>
+        <input type="text" name="Alamat" id="Alamat">
+    </div>
+    </center>
+    <center>
+        <div>
+        <label><p style="font-family:monospace;">EMAIL</p></label></br>
+        <input type="text" name="Email" id="Email">
+    </div>
+    </center>
+    <center>
+        <div>
+    </div>
+        <div class="form-action-buttons">
+        <input type="submit" value="Submit">
+        </div>
+        </form>
+    </div>
+    </center>
+    <br />
+    <center>
+    <div tyle="max-width: 400px;" class="employees-table">
+        <table border="2" width="60%" id="employeeList">
+        <thead>
+                <tbody>
+                <tr bgcolor="gray" height=70%>
+                <center><td>Nama</td></center>
+                <center><td>NPM</td></center>
+                <center><td>Alamat</td></center>
+                <center><td>Email</td></center>
+                <center><td>Aksi</td></center>
+        </tr>
+        </tbody>
+        </thead>
+        <tbody>
+        </tbody>
+        </table>
+        </font>
+</div>
+</center>
+<script src="fungsi.js"></script>
+</body>
+</html>
